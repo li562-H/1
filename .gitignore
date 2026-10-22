@@ -1,0 +1,46 @@
+# ---- DeepSeek Harness 本地记忆库（勿提交，误删不可恢复）----
+.dsh-meow/
+.dsh/
+*.db
+*.db.bak
+*.db-wal
+*.db-shm
+
+# ---- 系统 / 编辑器 ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+*.code-workspace
+
+# ---- 日志 / 临时文件 ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# ---- 依赖 / 构建产物（按需启用）----
+# node_modules/
+# dist/
+# build/
+# .next/
+# __pycache__/
+# *.pyc
+# .venv/
+# venv/
+# target/
+
+# ---- 密钥 / 敏感信息（务必不要提交）----
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+credentials.*
+secrets.*
